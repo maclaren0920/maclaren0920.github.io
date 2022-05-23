@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="初晨个人博客">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="初晨个人博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="maclaren">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>初晨个人博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+    <a target="_blank" rel="noopener" href="https://github.com/maclaren0920" class="github-corner" aria-label="View source on GitHub">
+    <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">初晨个人博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">0</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">0</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">4</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/23/AOP/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="maclaren">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="初晨个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/05/23/AOP/" class="post-title-link" itemprop="url">AOP在前端领域的实践</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-23 19:10:57" itemprop="dateCreated datePublished" datetime="2022-05-23T19:10:57+00:00">2022-05-23</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>5.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>5 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="AOP的基本概念"><a href="#AOP的基本概念" class="headerlink" title="AOP的基本概念"></a>AOP的基本概念</h3><p>什么是AOP？首先我们看一下来自维基百科的一段简单概述：</p>
+<p>AOP为Aspect Oriented Programming的缩写，意为：<strong>面向切面编程</strong>，是计算机科学中的一种程序设计思想，旨在将<strong>横切关注点</strong>与业务主体进行进一步分离，以提高程序代码的模块化程度。通过在现有代码基础上增加额外的<strong>通知</strong>（Advice）机制，能够对被声明为“<strong>切点</strong>（Pointcut）”的代码块进行统一管理与装饰，如“对所有方法名以‘set*’开头的方法添加后台日志”。该思想使得开发人员能够将与代码核心业务逻辑关系不那么密切的功能（如日志功能）添加至程序中，同时又不降低业务代码的可读性。面向切面的程序设计思想也是面向切面软件开发的基础。</p>
+<p>AOP这个词相对于后端开发来说会比较常见，比如java中大名鼎鼎的spring，反之前端却比较陌生，是一个常常被忽视的技术，其主要和javascript是一门多范式、弱面向对象的语言有一定的关系。</p>
+<h3 id="为什么需要AOP"><a href="#为什么需要AOP" class="headerlink" title="为什么需要AOP"></a>为什么需要AOP</h3><p>面向对象编程是针对业务处理中软件实体、行为和属性进行的封装和抽象，而面向切面编程是针对具体业务中核心功能和其他业务中的职责和逻辑分离，来减少系统的耦合度。</p>
+<p>面向切面编程（即AOP）是一种新的编程方式，但是并不是为了替代面向对象编程，它只是对面向对象的一种补充和完善，它们两者是一种相辅相成的关系。</p>
+<h3 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h3><p>在前端常见的需求中，以下业务场景中经常能看到AOP的影子：</p>
+<ul>
+<li>表单验证</li>
+<li>数据埋点、数据上报</li>
+<li>基于老旧项目扩展新需求</li>
+<li>异常处理</li>
+</ul>
+<p>下面我们来看下AOP在代码中的具体实现方式。</p>
+<h3 id="应用实例"><a href="#应用实例" class="headerlink" title="应用实例"></a>应用实例</h3><p>前面说了一大堆的理论，好像感觉并没什么用，下面我用实例案例来看看AOP的实际应用。</p>
+<h5 id="1-数据埋点、数据上报"><a href="#1-数据埋点、数据上报" class="headerlink" title="1. 数据埋点、数据上报"></a>1. 数据埋点、数据上报</h5><p>在实际业务开发中，我们可能会有数据数据埋点的需求，比较传统的实现方式应该是这样：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">sendPoint</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="title function_">axios</span>(<span class="string">&#x27;https://www.xxx.com&#x27;</span>);</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">onSubmit</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="title function_">sendPoint</span>();</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 提交逻辑...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">onSubmit</span>();</span><br></pre></td></tr></table></figure>
+<p>这好像并没有什么问题，但是onSubmit函数并不依赖于sendPoint，甚至在onSubmit中sendPoint完全是多余的，那么我们用AOP来优化下它：</p>
+<p>首选实现下AOP函数：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Function</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">before</span> = <span class="keyword">function</span>(<span class="params">fn</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> self = <span class="variable language_">this</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">    <span class="keyword">return</span> self.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后调用onSubmit就变成了：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">onSubmit.<span class="title function_">before</span>(sendPoint)();</span><br></pre></td></tr></table></figure>
+<p>你可能不太喜欢这种基于原型扩展的方式，这样污染了原型，我们同样可以用普通函数来实现：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> before = <span class="keyword">function</span> (<span class="params">originalFn, fn</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> self = <span class="variable language_">this</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">    <span class="keyword">return</span> originalFn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后修改下onSubmit函数的定义：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> onSubmit = <span class="title function_">before</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="title function_">sendPoint</span>();</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 提交逻辑...</span></span><br><span class="line">&#125;, sendPoint);</span><br><span class="line"></span><br><span class="line"><span class="title function_">onSubmit</span>();</span><br></pre></td></tr></table></figure>
+<p>这样onSubmit和sendPoint函数的逻辑就完全分离了。</p>
+<h5 id="2-表单验证"><a href="#2-表单验证" class="headerlink" title="2. 表单验证"></a>2. 表单验证</h5><p>表单验证是实际开发中非常常见的需求，在有些项目中可能会存在非常多的表单；每次在提交的接口时，都需要做数据校验来确保传递给后端的数据是正确的。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">validate</span> = (<span class="params">params</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">if</span> (!params.<span class="property">username</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">     <span class="keyword">if</span> (!params.<span class="property">password</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    ...</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">onFormSubmit</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">const</span> bool = <span class="title function_">validate</span>(params);</span><br><span class="line">    <span class="keyword">if</span> (bool) &#123;</span><br><span class="line">        <span class="title function_">axios</span>(<span class="string">&#x27;xxxx&#x27;</span>)</span><br><span class="line">        ...</span><br><span class="line">    &#125; esle &#123;</span><br><span class="line">    ...</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">onFormSubmit</span>();</span><br></pre></td></tr></table></figure>
+<p>以上代码是经常会遇到的，仔细分析下，onFormSubmit只是一个提交接口，却承担了提交数据到后台和数据校验的职责，接下来我们用AOP来对它们进行优化：</p>
+<p>这里参考以上数据埋点的示例，AOP函数的实现方式基本一致，只是表单验证这里的参数校验函数需要返回一个boolean值，我们对此进行一下优化：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Function</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">before</span> = <span class="keyword">function</span>(<span class="params">fn</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> self = <span class="variable language_">this</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> bool = fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">    <span class="keyword">if</span> (!bool) &#123;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> self.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后调用onFormSubmit的方式就变成了：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">onFormSubmit.<span class="title function_">before</span>(validate)();</span><br></pre></td></tr></table></figure>
+
+<p>这样onFormSubmit是不是就变成了一个非常干净的提交接口，和数据校验的逻辑分开了呢，并且后续如果有数据校验的的变动，只需要修改validate函数即可；并不需要修改提交接口的代码，这也完全符合软件设计中的SRP职责。</p>
+<h5 id="3-基于老旧项目扩展新需求"><a href="#3-基于老旧项目扩展新需求" class="headerlink" title="3. 基于老旧项目扩展新需求"></a>3. 基于老旧项目扩展新需求</h5><p>在实际开发中，经常会遇到需要在之前老项目的基础上增加一些新的需求，但是该项目可能开发年代比较久远，之前的开发人员可能已经各奔东西，你却需要在此基础上来修改代码，作为开发人员往往会面临这种局面，参考以下代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">execute</span> () &#123;</span><br><span class="line">    <span class="comment">// big code blocks</span></span><br><span class="line">    ... 以下省略几百行代码</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>你需要在execute函数中增加一些新的逻辑，但是在<em>big code blocks</em>中有大量复杂的业务逻辑，你并不敢随意修改，这可能会导致意想不到的bug出现，这时候我们用AOP来对它进行扩展，基于以上数据埋点的示例，我们来实现下AOP函数：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Function</span>.<span class="property"><span class="keyword">prototype</span></span>.<span class="property">after</span> = <span class="keyword">function</span>(<span class="params">fn</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> self = <span class="variable language_">this</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> result = self.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">    fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后之前的调用方式变成了：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">execute.<span class="title function_">after</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">// 新增的业务需求</span></span><br><span class="line">    ...</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure>
+<p>以上就实现对之前原有逻辑的扩展，在不修改之前代码的提前了，增加新的业务逻辑代码。</p>
+<h5 id="4-异常处理"><a href="#4-异常处理" class="headerlink" title="4. 异常处理"></a>4. 异常处理</h5><p>基于以上表单的验证的示例，在提交接口中往往会遇到异常处理的情况，如果在多个接口中异常做一个同样的处理，传统的方式是在方法中加一个异常捕获，具体如下：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">handlerError</span> = (<span class="params">err</span>) =&gt; &#123;</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">fetchData</span> = <span class="keyword">async</span> (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">         <span class="keyword">await</span> <span class="title function_">axios</span>(<span class="string">&#x27;https://xxxxx.com/xxx&#x27;</span>, data);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (error) &#123;</span><br><span class="line">        <span class="comment">// handler error</span></span><br><span class="line">        <span class="title function_">handlerError</span>(error);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> <span class="title function_">fetchData1</span> = <span class="keyword">async</span> (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">         <span class="keyword">await</span> <span class="title function_">axios</span>(<span class="string">&#x27;https://yyyyy.com/xxx&#x27;</span>, data);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (error) &#123;</span><br><span class="line">        <span class="comment">// handler error</span></span><br><span class="line">        <span class="title function_">handlerError</span>(error);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">fetchData</span>();</span><br><span class="line"><span class="title function_">fetchData1</span>();</span><br></pre></td></tr></table></figure>
+<p>如果是多个方法中都需要做这样的处理，那么将会使代码中充斥着大量的try catch，这将使代码变的非常臃肿和难以维护，其实catch中的异常处理和实际的业务功能并没有什么必然关系。</p>
+<p>下面我们用AOP的方式将它们的之间的逻辑进行分离，因为异常处理所依赖的前置条件是接口调用，因为它是异步的，所以实现方式和以上表单略有不同，我们需要返回一个异步函数。</p>
+<p>首先实现下异常处理的AOP函数：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">errorCatch</span> = (<span class="params">fn, handlerError</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">const</span> self = <span class="variable language_">this</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">async</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">await</span> fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (err) &#123;</span><br><span class="line">      handlerError.<span class="title function_">call</span>(<span class="variable language_">this</span>, err);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后在定义fetchData函数时就变成了：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fetchData = <span class="title function_">errorCatch</span>(<span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">    <span class="keyword">await</span> <span class="title function_">axios</span>(<span class="string">&#x27;https://xxxxx.com/xxx&#x27;</span>, data);</span><br><span class="line">&#125;, handlerError);</span><br></pre></td></tr></table></figure>
+<p>这样fetchData和handlerError的逻辑就完全分开了，并且fetchData中也不再充斥着try catch。</p>
+<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>以上的示例中AOP函数的实现有两种方式：</p>
+<ul>
+<li>原型扩展</li>
+<li>函数劫持</li>
+</ul>
+<p>在ES6之后推出了装饰器，我们一样可以用装饰器来实现：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">before</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params">target, property, descriptor</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> fn = descriptor.<span class="property">value</span>;</span><br><span class="line">    descriptor.<span class="property">value</span> = <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`before...`</span>)</span><br><span class="line">      <span class="keyword">let</span> value = fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">      <span class="keyword">return</span> value;</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">after</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params">target, property, descriptor</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> fn = descriptor.<span class="property">value</span>;</span><br><span class="line">    descriptor.<span class="property">value</span> = <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">      <span class="keyword">let</span> value = fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, <span class="variable language_">arguments</span>);</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`after...`</span>)</span><br><span class="line">      <span class="keyword">return</span> value;</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">定义一个测试类：</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">  @<span class="title function_">before</span>()</span><br><span class="line">  @<span class="title function_">after</span>()</span><br><span class="line">  <span class="title function_">run</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`run log`</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> p = <span class="keyword">new</span> <span class="title class_">Person</span>();</span><br><span class="line">p.<span class="title function_">run</span>();</span><br><span class="line"></span><br><span class="line"><span class="comment">// before ...</span></span><br><span class="line"><span class="comment">// run log</span></span><br><span class="line"><span class="comment">// after ...</span></span><br></pre></td></tr></table></figure>
+<p>以上代码通过ES6装饰器的方式实现了以上示例的AOP功能，在使用的时候通过类似于java中注解@的方式来使用AOP函数。</p>
+<p>但是通过装饰器的实现有个问题，装饰器必须使用在类中或者类的方法上，对于传统定义的函数并不支持这种用法，因为在js有函数存在提升。</p>
+<p>AOP函数的实现方式有多种，具体使用哪种方式来实现，完全取决于自己的喜好和具体的应用场景。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>以上通过4个常见的场景来说明AOP的实际应用和落地，但实际业务开发中往往有更多场景也同样会遇到这样的问题，这需要大家对函数所承载的职责和实现有更充分的理解。所谓的AOP其实就是设计模式中装饰者模式的一种实现，其原理就是对函数劫持和扩展。</p>
+<p>通过以上示例总结出AOP的几个优点： </p>
+<ul>
+<li>将核心代码逻辑和其他业务逻辑进行分离，减少业务间的耦合度</li>
+<li>在不修改原有代码的前提下，扩展新的业务逻辑代码，践行开闭原则</li>
+<li>减少重复代码</li>
+<li>提高系统的高内聚、低耦合特性</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li>&lt;&lt;javascript设计模式与开发实践&gt;&gt;</li>
+<li><a target="_blank" rel="noopener" href="https://es6.ruanyifeng.com/#docs/decorator">阮一峰 - ES6标准入门</a></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/23/event-loop/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="maclaren">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="初晨个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/05/23/event-loop/" class="post-title-link" itemprop="url">深入理解javascript事件循环机制</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-23 19:10:57" itemprop="dateCreated datePublished" datetime="2022-05-23T19:10:57+00:00">2022-05-23</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="为什么要写这篇文章"><a href="#为什么要写这篇文章" class="headerlink" title="为什么要写这篇文章"></a>为什么要写这篇文章</h2><p>在目前的技术社区上已经有大量介绍javascript事件循环的文章，并且也有一些写的非常不错的。但是他们大多都是在基于js层面来分析事件循环机制，很少有基于浏览器的运行流程来分析的，这就造就了很多对事件循环不甚了解的同学在实际开发中并不懂得怎样去正确的使用事件循环的特性，所以就有了现在这篇文章，<font color='red'>本文将从javascript在浏览器中的运行流程来分析事件循环的运行机制</font>。</p>
+<h2 id="javascript事件循环"><a href="#javascript事件循环" class="headerlink" title="javascript事件循环"></a>javascript事件循环</h2><p>我们都知道javascript是一门单线程的语言，所有的代码都是按顺序执行的，前面的代码没有执行完后面的会一直等待中，这就会造成程序的阻塞。</p>
+<p>先看下以下代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>);</span><br></pre></td></tr></table></figure>
+<p>按照代码执行顺序应该是打印： 1、2、3，<br>然而实际却是 3、2、1，<br>这完全不符合代码按顺序执行的逻辑呀！</p>
+<p>基于以上代码执行的顺序，我们有必要理解以下概念：</p>
+<ul>
+<li>js代码分同步任务和异步任务</li>
+<li>js实现异步的方式是基于事件循环模型</li>
+</ul>
+<p>javascript是一门单线程的语言，按照直觉代码就是一行一行执行的，这就是同步任务，没错，以上你认为不符合直觉的代码执行顺序，这其中就掺杂了异步任务。</p>
+<p>我们先来理解下同步任务和异步任务：</p>
+<ul>
+<li>同步任务<br>当我们早上早高峰去做地铁时，人比较多，人们是按顺序一个一个排队进入地铁，如果前面的人没有往前走，后面的人就必须一直等着。</li>
+<li>异步任务<br>当前面排队的比较多，队伍走的比较慢时，你闲着也是闲着反正又走不动，于是你拿出手机打开微信给朋友发了条消息，然后打开微信公众号看了会文章。</li>
+</ul>
+<p>理解以上概念我们再来回头看下之前的代码，很显然setTimeout和Promise是属于异步任务的行列。那么同样是异步任务为什么2在1之前打印呢？</p>
+<h3 id="微任务和宏任务"><a href="#微任务和宏任务" class="headerlink" title="微任务和宏任务"></a>微任务和宏任务</h3><p>除了同步任务和异步任务的区分之外，异步任务还有更精确的区分：</p>
+<ul>
+<li>微任务(micro-task)  job</li>
+<li>宏任务(macro-task)  task</li>
+</ul>
+<p>同步任务和异步任务都是由js引擎来调度管理的，在这其中维护了一组任务队列（Event Queue）；当执行到setTimeout时会将回调放入到<font color='red'>宏任务队列</font>，当执行到Promise then方法时会将会回调放入到<font color='red'>微任务队列</font>，当同步任务执行完成之后，就会去任务队列中的读取异步任务拿出来放到主线程中依次执行，首先会将微任务队列清空，然后再读取宏任务队列。</p>
+<p>到这里你应该应该清楚上述代码的执行顺序的原因，但是这只是基于代码层面的，实际开发中往往更加复杂，异步任务就只有微任务和宏任务吗?</p>
+<p>思考下一下代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">background</span> = <span class="string">&#x27;black&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line"> <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">background</span> = <span class="string">&#x27;red&#x27;</span>;</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">background</span> = <span class="string">&#x27;green&#x27;</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="title function_">requestAnimationFrame</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">background</span> = <span class="string">&#x27;orange&#x27;</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">background</span> = <span class="string">&#x27;blue&#x27;</span>;</span><br><span class="line">&#125;, <span class="number">200</span>);</span><br></pre></td></tr></table></figure>
+<p>以上代码依次将body背景色改色，在变成橙色的一瞬间，最终变成了蓝色，你可以将其copy到控制台执行试试看效果。</p>
+<p>结合上述讲解最终变成蓝色是没问题的，但是为什么会先变成橙色再变成蓝色呢，在这之前的黑色、红色和绿色呢?</p>
+<h2 id="从浏览器渲染顺序看异步执行机制"><a href="#从浏览器渲染顺序看异步执行机制" class="headerlink" title="从浏览器渲染顺序看异步执行机制"></a>从浏览器渲染顺序看异步执行机制</h2><p>以上代码的运行结果在这里需要结合浏览器的渲染顺序来理解它。</p>
+<p>我们来分析一下：<br>首先将body背景色变成黑色，然后遇到Promise then方法，依次将body背景色改成红色、绿色，我们之前提到Promise then方法属于微任务，该任务会在宏任务执行之前被全部清空，然后是执行requestAnimationFrame方法将body背景色改成橙色，最后是setTimeout宏任务将背景色改成蓝色。</p>
+<p>这是代码的执行顺序，为什么之前的设置的背景色没有生效呢，只有requestAnimationFrame和setTimeout设置的生效了呢，很显然之前设置的被覆盖掉了。</p>
+<p>结合同步任务和异步任务的讲解，我们知道同步代码先执行，首先设置背景色为黑色，然后清空微任务队列依次设置背景为红色、绿色，然后执行了requestAnimationFrame设置背景色为橙色，最后setTimeout将背景色变成蓝色。requestAnimationFrame是在setTimeout之前执行的，最后才算执行setTimeout，很显然requestAnimationFrame的执行时机比setTimeout更靠前，但是为什么会有先变成橙色再变成蓝色闪现的效果呢？</p>
+<p>原因是在requestAnimationFrame和setTimeout执行顺序之间还穿插了GUI渲染操作，也就是我们经常说的浏览器绘制，当requestAnimationFrame执行完之后浏览器进行GUI渲染重新绘制页面，然后再执行setTimeout方法将背景色改成蓝色。</p>
+<h3 id="requestAnimationFrame"><a href="#requestAnimationFrame" class="headerlink" title="requestAnimationFrame"></a>requestAnimationFrame</h3><p>上述提到异步任务中分微任务和宏任务，那么requestAnimationFrame是什么东西呢，它是属于微任务还是宏任务呢？为什么它在setTimeout之前执行呢？我们可以在MDN看到关于requestAnimationFrame的描述：<br>window.requestAnimationFrame()告诉浏览器——你希望执行一个动画，并且要求浏览器在下次重绘之前调用指定的回调函数更新动画。该方法需要传入一个回调函数作为参数，该回调函数会在浏览器下一次重绘之前执行。</p>
+<p>意思是说requestAnimationFrame是在浏览器绘制页面之前最后修改DOM元素的时机，文档中并未提到微任务和宏任务，这说明它并不属于这两者之间，它是独立于任务队列的，是由浏览器渲染进程来调度的，因为它独立于同步任务和异步任务，不存在同步异步阻塞的情况，所以一般实现动画效果使用它来实现比setTimeout更合适。</p>
+<p>结合以上代码示例和讲解我们可以总结出javascript事件循环的执行顺序：</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h155rq25eyj213k078my5.jpg"></p>
+<p>如上图所示，我将它分为两步，首先执行第一个宏任务，也就是script代码块，将script代码块中的同步任务放入主线程中执行，同步任务执行完成之后取出微任务中队列中的所有任务依次执行，然后执行requestAnimationFrame中的回调，其次是GUI渲染，最后执行setTimeout。第一步在脚本加载完成之后执行，其次不断循环第二步，这就是javascript事件循环的具体流程。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>结合上述讲解，最后结尾我们来总结一下：</p>
+<ol>
+<li>javascript是单线程语言，同步任务同步执行，异步任务执行异步执行</li>
+<li>异步任务分微任务和宏任务</li>
+<li>requestAnimationFrame是独立于任务队列的，它是浏览重新绘制页面之前操作DOM的最后时机</li>
+</ol>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame">https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame</a><br><a target="_blank" rel="noopener" href="https://juejin.cn/post/6844903512845860872#heading-3">https://juejin.cn/post/6844903512845860872#heading-3</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/23/git/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="maclaren">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="初晨个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/05/23/git/" class="post-title-link" itemprop="url">那些不常用的Git高级命令</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-23 19:10:57" itemprop="dateCreated datePublished" datetime="2022-05-23T19:10:57+00:00">2022-05-23</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="那些不常用的Git高级命令"><a href="#那些不常用的Git高级命令" class="headerlink" title="那些不常用的Git高级命令"></a>那些不常用的Git高级命令</h1><p>Git作为版本控制管理工具的顶流，时至今日已经成为前后端开发必不可少的一项技能，掌握Git是开发工程师们的必备需求。但是大部分日常使用的都是写比较基础的命令，对于有些高级命令有些使用Git多年的开发人员可能都从未用过，所以本文的目的就是带你了解几个不常用但是非常有用的高级命令。</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17ank6u9cj20wk09g0tl.jpg"></p>
+<h2 id="git-stash"><a href="#git-stash" class="headerlink" title="git stash"></a>git stash</h2><p>git stash命令可以用于将工作区和暂存区未提交的修改进行保存。</p>
+<p>假如你正在feature分支上开发中，突然你的leader告诉你dev分支有一个紧急的bug需要你去修复，但是你在feature分支上的功能还没开发完成，这个时候你只能把feature分支未开发完成的代码先提交，再切换到dev分支去修复它，那么有没有其他办法呢？</p>
+<p>那就是用git stash命令将工作区的修改进行保存，当你执行完git stash命令后，再执行git status你会发现你之前在工作区的修改全部被取消了，你的工作区是干净的，这个时候你就可以直接切换到dev分支进行开发，当你在dev分支的bug修复完成之后，再切换回feature分支再执行git stash pop就可以将之前在feature分支未开发完成的修改还原回来，然后就可以继续开发了。</p>
+<p>git stash作用其实就是将未commit的修改操作保存在堆栈中。</p>
+<p>git stash主要有以下几个参数：</p>
+<ul>
+<li>git stash 将未commit的修改操作保存</li>
+<li>git stash list 列出已保存的记录</li>
+<li>git stash pop 将最近保存的一条记录还原到工作区，并且从list中删除</li>
+<li>git stash apply 将最近保存的一条记录还原到工作区，并且不删除list中的记录</li>
+<li>git stash clear 清空list中的是所有保存记录</li>
+</ul>
+<h2 id="git-cherry-pick"><a href="#git-cherry-pick" class="headerlink" title="git cherry-pick"></a>git cherry-pick</h2><p>git cherry-pick的作用就如其名摘樱桃，见名知意，就是将某个分支中的某个commit转移到另一个分支中。</p>
+<p>你在dev1分支中开发完成一个功能，现在有个需求需要将dev1分支上这功能挪到dev2分支中，但是dev1和dev2两个分支的功能并不同步，所以不能直接在dev2分支的基础上直接合并dev1分支，这个时候就可以用cherry-pick这个命令。</p>
+<p>首先在dev1分支上使用git reflog命令找到提交该功能的这commit id，它是一个hash值，</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17g0apk9zj212206ctbc.jpg"></p>
+<p>将其copy出来，再切换到dev2分支，使用cherry-pick命令：</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17g4ub2g1j20om05ejs7.jpg"></p>
+<p>这样dev1分支中该功能的commit修改记录就成功转移到了dev2分支上。</p>
+<p>以上操作cherry-pick只是转移了一个comit记录，该命令也支持同时转移多个commit，只需要用空格隔开即可。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git cherry-pick xx1 xx2 xx3</span><br></pre></td></tr></table></figure>
+<p>除此之外，cherry-pick命令参数还可以是一个分支名，此操作会将该分支最新的一次提交转移过去。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git cherry-pick dev3</span><br></pre></td></tr></table></figure>
+
+<h2 id="git-rebase"><a href="#git-rebase" class="headerlink" title="git rebase"></a>git rebase</h2><p>git rebase命令主要有两种功能：</p>
+<ul>
+<li>合并commit</li>
+<li>合并分支</li>
+</ul>
+<h4 id="合并commit"><a href="#合并commit" class="headerlink" title="合并commit"></a>合并commit</h4><p>合并commit是比较常见的需求，我在开发一个模块时同时产生了3个commit记录，这3次记录都针对该模块的，对于后面两次来说是没必要的记录，这里可以使用git rebase命令来将这三个commit合并成一个。</p>
+<p>首先使用git log命令找到需要合并的这三个commit之前的那个commit id,<br><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17gx465jrj20yw0oeq6u.jpg"></p>
+<p> 然后使用git rebase命令：<br> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase -i 1ed74ac3c35c4f78f7eff2b61c22b6346cb68296</span><br></pre></td></tr></table></figure><br> 这时会出现一个交互命令窗口，这里我们将3个commit合并成一个，那么将第二三个commit id前面的pick改成squash，</p>
+<p> <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17h954zksj210c0q4n2h.jpg"></p>
+<p>改完之后wq保存，会出来另外一个弹窗，需要重新修改commit message，修改完成之后wq保存，git log你会发现之前三个commit成功合并成了一个。</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17hfpgqndj20t80ci767.jpg"></p>
+<p>提交记录一下子变干净了。</p>
+<h4 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h4><p>合并分支通常是使用git merge命令，但是git merge有个问题，就是提交记录产生多条，而git rebase可以让commit记录变成一条整齐的git flow。</p>
+<p>现在需要将main分支合并到dev1中，首先将main分支更新到最新，然后切换到需要rebase的分支dev1，执行git rebase main</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17hzwvsezj213q0modkj.jpg"></p>
+<p>你会发现main分支中的commit修改记录成功转移到了dev1分支上，并且并没有新增commit，查看下commit提交记录，git flow是一条整齐的git flow。</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h17i2cbtbtj20kg0asq3l.jpg"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>以上介绍几个并不是很常用的Git高级命令，虽然并不是非常常用，但是在关键时刻却能达到事半功倍的效果，以上命令只是做了基础使用介绍，其他更多高级用法可以参考查询官方文档和其他资料。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>《Git权威指南》</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/23/reduce/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="maclaren">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="初晨个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/05/23/reduce/" class="post-title-link" itemprop="url">javascript高阶函数 - 万能的reduce</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-23 19:10:57" itemprop="dateCreated datePublished" datetime="2022-05-23T19:10:57+00:00">2022-05-23</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>5.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>5 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="javascript高阶函数-万能的reduce"><a href="#javascript高阶函数-万能的reduce" class="headerlink" title="javascript高阶函数 - 万能的reduce"></a>javascript高阶函数 - 万能的reduce</h2><p>javascript作为一门原生支持函数式编程的语言，在数组中有许多丰富的API方法，如forEach、filter、map、some、every、find、findIndex等。但是有一个方法却能实现以上方法所有的功能，那就是万能的<font color='red'>reduce</font>。</p>
+<p>首先我们先看下reduce的语法：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">arr.<span class="title function_">reduce</span>(<span class="title function_">callback</span>(accumulator, currentValue[, index[, array]])[, initialValue])</span><br></pre></td></tr></table></figure>
+<p>reduce共接收两个参数，一个是回调函数，一个是初始值（可选），回调函数共接收4个参数：</p>
+<ul>
+<li>accumulator 累计器</li>
+<li>current 当前值</li>
+<li>当前索引</li>
+<li>源数组</li>
+</ul>
+<p>reduce会为数组中的每一项依次执行callback，并且会将callback执行完返回的累计值累计到accumulator参数中，等所有callback执行完毕再将accumulator返回。</p>
+<p>下面我们就用reduce来实现以上所有的方法。</p>
+<h3 id="forEach"><a href="#forEach" class="headerlink" title="forEach"></a>forEach</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">forEach</span> = (<span class="params">arr, callback</span>) =&gt; &#123;</span><br><span class="line">  arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="title function_">callback</span>(current, index, array);</span><br><span class="line">  &#125;, <span class="number">0</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">forEach</span>(arr, <span class="function">(<span class="params">item, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`item`</span>, item)  <span class="comment">// 1, 2, 3</span></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`index`</span>, index) <span class="comment">// 0, 1, 2</span></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`array`</span>, array) <span class="comment">// [1, 2, 3]</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">filter</span> = (<span class="params">arr, callback</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">return</span> arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> ret = <span class="title function_">callback</span>(current, index, array);</span><br><span class="line">    <span class="keyword">if</span> (ret) &#123;</span><br><span class="line">      pre.<span class="title function_">push</span>(current);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> pre;</span><br><span class="line">  &#125;, []);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> result = <span class="title function_">filter</span>(arr, <span class="function">(<span class="params">item</span>) =&gt;</span> &#123;</span><br><span class="line"> <span class="keyword">return</span> item &gt; <span class="number">1</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`result`</span>, result); <span class="comment">// [2, 3]</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">map</span> = (<span class="params">arr, callback</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">return</span> arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> ret = <span class="title function_">callback</span>(current, index, array);</span><br><span class="line">    pre.<span class="title function_">push</span>(ret);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> pre;</span><br><span class="line">  &#125;, []);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> result = <span class="title function_">map</span>(arr, <span class="function">(<span class="params">item</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> item * <span class="number">100</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`result`</span>, result); <span class="comment">// [100, 200, 300]</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="some"><a href="#some" class="headerlink" title="some"></a>some</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">some</span> = (<span class="params">arr, callback</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">return</span> arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> ret = <span class="title function_">callback</span>(current, index, array);</span><br><span class="line">      </span><br><span class="line">    <span class="keyword">if</span> (ret) &#123;</span><br><span class="line">      pre = <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> pre;</span><br><span class="line">  &#125;, <span class="literal">false</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> result = <span class="title function_">some</span>(arr, <span class="function">(<span class="params">item</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> item &gt; <span class="number">2</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`result`</span>, result); <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="every"><a href="#every" class="headerlink" title="every"></a>every</h3><p>every有点不一样，需要一个中间变量存储以下状态。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">every</span> = (<span class="params">arr, callback</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">let</span> flag = <span class="literal">true</span>;</span><br><span class="line">  <span class="keyword">const</span> bool = arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> ret = <span class="title function_">callback</span>(current, index, array);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (!ret) &#123;</span><br><span class="line">      flag = <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">      <span class="keyword">return</span> flag;</span><br><span class="line">    &#125;, <span class="literal">false</span>);</span><br><span class="line">  <span class="keyword">return</span> bool;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> result = <span class="title function_">every</span>(arr, <span class="function">(<span class="params">item</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> item &gt; <span class="number">2</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`result`</span>, result); <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="find"><a href="#find" class="headerlink" title="find"></a>find</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">find</span> = (<span class="params">arr, callback</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">return</span> arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre | <span class="literal">null</span>, current, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> ret = <span class="title function_">callback</span>(current, index, array);</span><br><span class="line">    <span class="keyword">if</span> (ret) &#123;</span><br><span class="line">      pre = current;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> pre;</span><br><span class="line">  &#125;, <span class="literal">null</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> result = <span class="title function_">find</span>(arr, <span class="function">(<span class="params">item</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> item === <span class="number">3</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`result`</span>, result); <span class="comment">// 3</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="findIndex"><a href="#findIndex" class="headerlink" title="findIndex"></a>findIndex</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">findIndex</span> = (<span class="params">arr, callback</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">return</span> arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> ret = <span class="title function_">callback</span>(current, index, array);</span><br><span class="line">    <span class="keyword">if</span> (ret) &#123;</span><br><span class="line">      pre = index;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> pre;</span><br><span class="line">  &#125;, -<span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> result = <span class="title function_">find</span>(arr, <span class="function">(<span class="params">item</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> item === <span class="number">3</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`result`</span>, result); <span class="comment">// 2</span></span><br></pre></td></tr></table></figure>
+
+<p>以上就是reduce对所列举方法中所有的实现，这就是reduce的强大之处。上述示例只是为了体现reduce的强大与灵活之处，在实际开发中，我们并不会这样去使用。</p>
+<p>那么reduce具体在哪些地方有合适的使用呢，可以看看以下几个常见的示例。</p>
+<h3 id="求和"><a href="#求和" class="headerlink" title="求和"></a>求和</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> subjectSummary = [</span><br><span class="line">    &#123;<span class="attr">id</span>: <span class="number">1</span>, <span class="attr">subject</span>: <span class="string">&#x27;语文&#x27;</span>, <span class="attr">score</span>: <span class="number">86</span>&#125;,</span><br><span class="line">    &#123;<span class="attr">id</span>: <span class="number">2</span>, <span class="attr">subject</span>: <span class="string">&#x27;数学&#x27;</span>, <span class="attr">score</span>: <span class="number">93</span>&#125;,</span><br><span class="line">    &#123;<span class="attr">id</span>: <span class="number">2</span>, <span class="attr">subject</span>: <span class="string">&#x27;英语&#x27;</span>, <span class="attr">score</span>: <span class="number">95</span>&#125;,</span><br><span class="line">];</span><br></pre></td></tr></table></figure>
+<p>以上数组中，对score字段进行求和：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> scoreSum = subjectSummary.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> pre + current.<span class="property">score</span>;</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="分组"><a href="#分组" class="headerlink" title="分组"></a>分组</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> menuGroup = [</span><br><span class="line">    &#123;<span class="attr">id</span>: <span class="number">1</span>, <span class="attr">name</span>: <span class="string">&#x27;用户中心&#x27;</span>,<span class="attr">type</span>: <span class="number">1</span>&#125;,</span><br><span class="line">    &#123;<span class="attr">id</span>: <span class="number">2</span>, <span class="attr">name</span>: <span class="string">&#x27;设置&#x27;</span>, <span class="attr">type</span>: <span class="number">2</span>&#125;,</span><br><span class="line">    &#123;<span class="attr">id</span>: <span class="number">3</span>, <span class="attr">name</span>: <span class="string">&#x27;消息中心&#x27;</span>, <span class="attr">type</span>: <span class="number">2</span>&#125;,</span><br><span class="line">    &#123;<span class="attr">id</span>: <span class="number">4</span>, <span class="attr">name</span>: <span class="string">&#x27;我的&#x27;</span>, <span class="attr">type</span>: <span class="number">1</span>&#125;,</span><br><span class="line">];</span><br></pre></td></tr></table></figure>
+<p>以上数组中是通过后端接口返回的用户菜单数据，我们需要通过type字段来进行分组，type为1的在主菜单中显示，type为2的在侧边栏显示。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> menuMap = menuGroup.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (current.<span class="property">type</span> === <span class="number">1</span>) &#123;</span><br><span class="line">    pre.<span class="property">menuList</span>.<span class="title function_">push</span>(current);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">if</span> (current.<span class="property">type</span> === <span class="number">2</span>) &#123;</span><br><span class="line">    pre.<span class="property">subMenuList</span>.<span class="title function_">push</span>(current);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> pre;</span><br><span class="line">&#125;, &#123;<span class="attr">menuList</span>: [], <span class="attr">subMenuList</span>: []&#125;);</span><br></pre></td></tr></table></figure>
+
+<h3 id="统计字符串出现次数"><a href="#统计字符串出现次数" class="headerlink" title="统计字符串出现次数"></a>统计字符串出现次数</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> str = <span class="string">&#x27;aabdddeffghhhhyyy&#x27;</span>;</span><br><span class="line"><span class="keyword">const</span> countMapper = str1.<span class="title function_">split</span>(<span class="string">&#x27;&#x27;</span>).<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (pre.<span class="title function_">hasOwnProperty</span>(current)) &#123;</span><br><span class="line">    pre[current] += <span class="number">1</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    pre[current] = <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> pre;</span><br><span class="line">&#125;, &#123;&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="数组去重"><a href="#数组去重" class="headerlink" title="数组去重"></a>数组去重</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">1</span>, <span class="number">8</span>, <span class="number">5</span>];</span><br><span class="line"><span class="keyword">const</span> newArr = arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">pre, current</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (!pre.<span class="title function_">includes</span>(current)) &#123;</span><br><span class="line">    pre.<span class="title function_">push</span>(current);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> pre;</span><br><span class="line">&#125;, []);</span><br></pre></td></tr></table></figure>
+
+<h3 id="顺序执行promise"><a href="#顺序执行promise" class="headerlink" title="顺序执行promise"></a>顺序执行promise</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">createPromise</span> = (<span class="params">timeout</span>) =&gt; &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`timeout===&gt;`</span>, timeout);</span><br><span class="line">      <span class="title function_">resolve</span>();</span><br><span class="line">    &#125;, timeout);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> promiseArr = [createPromise.<span class="title function_">bind</span>(<span class="literal">null</span>, <span class="number">1000</span>), createPromise.<span class="title function_">bind</span>(<span class="literal">null</span>, <span class="number">2000</span>), createPromise.<span class="title function_">bind</span>(<span class="literal">null</span>, <span class="number">3000</span>)];</span><br><span class="line"></span><br><span class="line"> <span class="keyword">const</span> <span class="title function_">runPromiseInSQueue</span> = (<span class="params">arr</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">return</span> arr.<span class="title function_">reduce</span>(<span class="function">(<span class="params">prePromise, currentPromise</span>) =&gt;</span> prePromise.<span class="title function_">then</span>(currentPromise), <span class="title class_">Promise</span>.<span class="title function_">resolve</span>());</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"> <span class="keyword">const</span> p = <span class="title function_">runPromiseInSQueue</span>(promiseArr);</span><br><span class="line"> p.<span class="title function_">then</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">   <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`执行完成...`</span>)</span><br><span class="line"> &#125;);</span><br></pre></td></tr></table></figure>
+
+<h3 id="组合函数-compose"><a href="#组合函数-compose" class="headerlink" title="组合函数(compose)"></a>组合函数(compose)</h3><p>redux中compose组合函数的实现：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">compose</span>(<span class="params">...funcs</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (funcs.<span class="property">length</span> === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="params">arg</span> =&gt;</span> arg</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (funcs.<span class="property">length</span> === <span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> funcs[<span class="number">0</span>] </span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> funcs.<span class="title function_">reduce</span>(<span class="function">(<span class="params">a, b</span>) =&gt;</span> <span class="function">(<span class="params">...args</span>) =&gt;</span> <span class="title function_">a</span>(<span class="title function_">b</span>(...args)))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>以上是reduce方法比较常见的几个使用场景，还有更多的使用场景需要你去尝试和挖掘。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>通过以上对javascript几个高阶函数的实现和上述几个示例的运用，我们总结出以下几点：</p>
+<ul>
+<li>reduce可以返回任何你需要的数据类型</li>
+<li>callback中的执行逻辑和返回值完全由使用者来决定和控制</li>
+<li>灵活运用reduce可以使业务更加聚合，并且减少许多中间变量</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="maclaren"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">maclaren</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/maclaren0920" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;maclaren0920" rel="noopener" target="_blank"><i class="fa fa-fw fa-github-alt"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:maclaren0920@126.com" title="E-Mail → mailto:maclaren0920@126.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">maclaren</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">16k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">14 分钟</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
